@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/resources/Banner\ Image.png");
+  background-size: 100% 100%;
+  margin: 40px auto;
+  border-radius: 12px;
+}
+.header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.small-title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 25px;
+  font-weight: 400;
+}
+.big-title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 57px;
+  font-weight: 900;
+  line-height: 76px;
+}
+.header-title {
+  padding: 140px 275px;
+}
+.discount-main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 207px;
+  justify-content: center;
+  margin: 56px auto;
+}
+.discount-amount-heading {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+}
+.discount-heading-quality {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 24px 0px 13px 0px;
+}
+.discount-catagory {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 38px;
+  margin-bottom: 38px;
+  font-weight: 700;
+}
+.dicount-section-img img{
+    width: 100%;
+}
+.party-section-container {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/resources/Vectorrr.png");
+  background-size: cover;
+  border-radius: 13px;
+  margin: 40px auto;
+}
+.party-container {
+  display: flex;
+  flex-direction: row;
+  /* padding: 54px 30px 54px 100px; */
+}
+
+.party-container-info p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.party-container-info h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 51px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 5.5px;
+}
+.party-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 54px 135px;
+  gap: 30px;
+}
+.party-container-info button {
+  color: white;
+  font-family: Inter;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+}
+.party-container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+.party-container-img img{
+    width: 100%;
+    /* width: ; */
+}
