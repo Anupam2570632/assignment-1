@@ -126,6 +126,10 @@ footer {
   background-color: transparent;
   border: none;
 }
+.party-container-info button:hover{
+  background-color: #6117a1;
+  transition-duration: 500ms;
+}
 .party-container-info {
   display: flex;
   flex-direction: column;
@@ -279,24 +283,29 @@ footer {
   font-weight: 500;
   line-height: 26px;
 }
+.main-img-section {
+  height: 530px;
+  width: 1216px;
+}
 .img-section1 {
-  background-image: url("resources/Rectangle\ 2.png");
-  background-repeat: no-repeat;
-  vertical-align: text-bottom;
+  background-image:  url("resources/Rectangle\ 1.png"), url("resources/Rectangle\ 2.png");
+  background-size:   345px 345px, 100% 190px;
+  background-repeat:   no-repeat,no-repeat;
+  background-position:  right top,left bottom;
   position: relative;
 }
-
-.img-section2 {
-  background-image: url("resources/Rectangle\ 1.png");
-  width: 100%;
-  background-repeat: no-repeat;
-  position: relative;
+.overlaping-img {
+  position: absolute;
+  right: 18%;
+  top: 10%;
 }
-.img-section1-secondary-img {
-  position: relative;
-  width: 100%;
-  bottom: 0;
-  left: 0;
+.box-img{
+  height: 530px;
+  width: 637px;
+}
+.overlaping-img img{
+  height: 245px;
+  width: 245px;
 }
 .footer-container {
   display: flex;
