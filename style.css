@@ -305,7 +305,7 @@ footer {
 .img-section1 {
   background-image: url("resources/Rectangle\ 1.png"),
     url("resources/Rectangle\ 2.png");
-  background-size: 345px 345px, 100% 190px;
+  background-size: 345px 343px, 100% 190px;
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left bottom;
   position: relative;
