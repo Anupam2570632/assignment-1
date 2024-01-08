@@ -131,7 +131,7 @@ footer {
   background-color: transparent;
   border: none;
 }
-.party-container-info button:hover{
+.party-container-info button:hover {
   background-color: #6117a1;
   transition-duration: 500ms;
 }
@@ -188,7 +188,7 @@ footer {
   font-size: 16px;
   font-weight: 700;
 }
-.event-container-button button:hover{
+.event-container-button button:hover {
   background-color: rgb(37, 186, 26);
   transition-duration: 700ms;
 }
@@ -283,7 +283,7 @@ footer {
   font-size: 58px;
   font-weight: 900;
 }
-.holiday-offer-header-section h1 span{
+.holiday-offer-header-section h1 span {
   color: #f00;
 }
 .holiday-offer-header-section p {
@@ -303,10 +303,11 @@ footer {
   width: 1216px;
 }
 .img-section1 {
-  background-image:  url("resources/Rectangle\ 1.png"), url("resources/Rectangle\ 2.png");
-  background-size:   345px 345px, 100% 190px;
-  background-repeat:   no-repeat,no-repeat;
-  background-position:  right top,left bottom;
+  background-image: url("resources/Rectangle\ 1.png"),
+    url("resources/Rectangle\ 2.png");
+  background-size: 345px 345px, 100% 190px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left bottom;
   position: relative;
 }
 .overlaping-img {
@@ -314,11 +315,11 @@ footer {
   right: 18%;
   top: 10%;
 }
-.box-img{
+.box-img {
   height: 530px;
   width: 637px;
 }
-.overlaping-img img{
+.overlaping-img img {
   height: 245px;
   width: 245px;
 }
