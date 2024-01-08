@@ -182,6 +182,10 @@ footer {
   font-size: 16px;
   font-weight: 700;
 }
+.event-container-button button:hover{
+  background-color: rgb(37, 186, 26);
+  transition-duration: 700ms;
+}
 .offer-container {
   display: flex;
   justify-content: space-between;
