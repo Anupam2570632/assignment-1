@@ -6,6 +6,7 @@
 }
 .container {
   width: 80%;
+  max-width: 1320px;
 }
 header {
   display: flex;
